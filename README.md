@@ -103,7 +103,7 @@ Set up development environment on a new Windows for Java and PostgreSQL
 ## Setup Steps
 
 ### 1. Install Java
-- Download the JDK (Java SE development kit) 25.0.1 from the [Oracle website](https://github.com/coreybutler/nvm-windows/releases)
+- Download the JDK (Java SE development kit) 25.0.1 from the [Oracle website](https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.exe)
 - Run the installer
 - After installation, open Command Prompt or PowerShell and verify:
 
