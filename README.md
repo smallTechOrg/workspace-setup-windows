@@ -83,5 +83,48 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
+</details>
 
+---
+
+# Windows Dev Environment Setup for #Local
+<details>
+## Purpose
+Set up development environment on a new Windows for Java and PostgreSQL
+
+---
+
+## Requirements
+- Windows 10 or 11
+- Internet connection
+- Visual Studio Code or [IntelliJ](https://www.jetbrains.com/idea/download/other.html)
+
+---
+## Setup Steps
+
+### 1. Install Java
+- Download the JDK (Java SE development kit) 25.0.1 from the [Oracle website](https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.exe)
+- Run the installer
+- After installation, open Command Prompt or PowerShell and verify:
+
+```bash
+java version
+```
+---
+### 2. Install PostgreSQL
+- Download Postgres and install (version 18 for #Local) from [Postgres](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+
+---
+### 3. Install PostGIS
+- Search for Stack Builder app (installed with PostgreSQL)
+- In Stack Builder, select your PostgreSQL and spatial category in you will get option to install PostGIS
+- After installation, To test, go to PGadmin, and query this in a database
+
+```bash
+CREATE EXTENSION postgis;
+SELECT PostGIS_Version();
+```
+### 4. VS Code Extension
+- [Java](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)
+- [Kotlin](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)
 </details>
