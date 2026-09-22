@@ -23,19 +23,35 @@ claude doctor
 
 If a version is displayed, Claude Code is installed.
 
-4. Install Hermes
+4. To use Claude Code directly in VS Code:
 
-For a Bash-based setup, Hermes can be installed through WSL2:
+1. Open VS Code.
+2. Open Extensions (Ctrl + Shift + X).
+3. Search for Claude Code.
+4. Install the official Claude Code extension.
+5. Open your project in VS Code.
+6. Open the Claude Code panel from the VS Code sidebar.
 
-curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+5. Install Hermes
 
-5. Verify Hermes
+Its CLI installer uses PowerShell:
+
+iex (irm https://hermes-agent.nousresearch.com/install.ps1)
+
+
+6. Verify Hermes
 Restart git bash and verify the installation
 
 hermes --version
 
 If a version is displayed, Hermes is installed.
 
+7. Hermes for Desktop
+
+https://hermes-agent.nousresearch.com/desktop
+Download and install Hermes Desktop for Windows, then launch the application.
+
+The Desktop app and Hermes CLI can be used together and share the same Hermes installation and data
 
 
 
