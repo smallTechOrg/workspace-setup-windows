@@ -37,4 +37,12 @@ pyenv install 3.10.0
 
 Replace `3.10.0` with the version required by your project.
 
+## 5. Creating virtual environment
 
+To create a virtual environment named "venv", go to Windows PowerShell and enter
+
+python -m venv venv
+
+To activate the environment
+
+venv\Scripts\activate
