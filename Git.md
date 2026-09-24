@@ -15,8 +15,7 @@ For most Windows PCs, download the **x64 Setup** installer.
 Git for Windows also installs Git Bash.
 
 ## 3. Verify Git
-
-Open a **new** PowerShell window:
+Restart git bash and verify the installation
 ```bash
 git --version
 ```

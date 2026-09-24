@@ -48,6 +48,7 @@ Download and install Hermes Desktop for Windows, then launch the application.
 
 ## 6. Verify Hermes
 Restart git bash and verify the installation
+
 ```bash
 hermes --version
 ```

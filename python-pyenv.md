@@ -17,6 +17,7 @@ Open the repository and follow its current **Installation** instructions.
 After installation, close PowerShell and open a new PowerShell window.
 
 ## 2. Verify pyenv
+Restart git bash and verify the installation
 
 ```bash
 pyenv --version

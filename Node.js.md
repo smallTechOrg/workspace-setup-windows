@@ -23,7 +23,7 @@ Download 26.x version for the LTS version. This is documented in Sep, 2026.
 Close PowerShell and open a new PowerShell window.
 
 ## 4. Verify Node.js
-
+Restart git bash and verify the installation
 ```bash
 node --version
 ```

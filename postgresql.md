@@ -12,7 +12,7 @@ https://www.postgresql.org/download/windows/
 
 ## 4. Verify PostgreSQL
 
-Open a new PowerShell window:
+Restart git bash and verify the installation
 ```bash
 psql --version 
 ```
