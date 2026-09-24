@@ -7,7 +7,8 @@ Download and install Git for Windows, which includes Git Bash.
 * [Git Setup](git-setup.md)
 
 
-<details> <summary><strong>Hermes Setup</strong></summary>
+<details> <summary><strong>Claude code Setup</strong></summary>
+
 ## 2. Install Claude Code
 
 From Git Bash:
@@ -40,13 +41,14 @@ If a version is displayed, Claude Code is installed.
 </details>
 
 <details> <summary><strong>Hermes Setup</strong></summary>
-## 5. Hermes for Desktop
+
+## 1. Hermes for Desktop
 
 https://hermes-agent.nousresearch.com/desktop
 
 Download and install Hermes Desktop for Windows, then launch the application.
 
-## 6. Verify Hermes
+## 2. Verify Hermes
 Restart git bash and verify the installation
 
 ```bash
