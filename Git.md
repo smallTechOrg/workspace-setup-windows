@@ -17,9 +17,9 @@ Git for Windows also installs Git Bash.
 ## 3. Verify Git
 
 Open a **new** PowerShell window:
-
+```bash
 git --version
-
+```
 
 A Git version should be displayed.
 

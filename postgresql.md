@@ -13,10 +13,14 @@ https://www.postgresql.org/download/windows/
 ## 4. Verify PostgreSQL
 
 Open a new PowerShell window:
+```bash
+psql --version 
+```
 
-psql --version
 or 
+```bash
 psql -v
+```
 
 A PostgreSQL client version should be displayed.
 
