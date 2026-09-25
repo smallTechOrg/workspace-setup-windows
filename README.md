@@ -7,8 +7,8 @@ This repository contains setup guides for development tools and coding agents on
 * [git](git.md)
 * [coding-agents](coding-agents.md)
 * [postgreSQL ](postgresql.md)
-* [python & pyenv ](python.md)
-* [node.js & nvm](js.md)
+* [python.md ](python.md)
+* [js.md](js.md)
 ## Validation
 
 After completing the setup, run the appropriate validation script:
