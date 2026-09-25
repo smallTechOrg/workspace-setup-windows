@@ -5,7 +5,7 @@ This repository contains setup guides for development tools and coding agents on
 ## Setup Guides
 
 * [git](git.md)
-* [coding agents](coding-agents.md)
+* [coding-agents](coding-agents.md)
 * [postgreSQL ](postgresql.md)
 * [python & pyenv ](python-pyenv.md)
 * [node.js & nvm](node.js.md)

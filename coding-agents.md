@@ -4,7 +4,7 @@ Coding agent setup
 ## 1. Requirements
 
 Download and install Git for Windows, which includes Git Bash.
-* [Git Setup](git.md)
+* [git](git.md)
 
 
 <details> <summary><strong>Claude code Setup</strong></summary>
