@@ -1,7 +1,7 @@
 Coding agent setup
 
 
-## 1. Requirements
+## Requirements
 
 Download and install Git for Windows, which includes Git Bash.
 * [git](git.md)
@@ -9,13 +9,13 @@ Download and install Git for Windows, which includes Git Bash.
 
 <details> <summary><strong>Claude code Setup</strong></summary>
 
-## 2. Install Claude Code
+## 1. Install Claude Code
 
 From Git Bash:
 ```bash
 npm install -g @anthropic-ai/claude-code
 ```
-## 3. Verify Claude Code
+## 2. Verify Claude Code
 Restart git bash and verify the installation
 ```bash
 claude --version
@@ -30,7 +30,7 @@ Claude Code Quickstart
 This is a claude login command.
 If a version is displayed, Claude Code is installed.
 
-## 4. To use Claude Code directly in VS Code:
+## 3. To use Claude Code directly in VS Code:
 
 1. Open VS Code.
 2. Open Extensions (Ctrl + Shift + X).
