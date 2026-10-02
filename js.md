@@ -39,3 +39,11 @@ npm --version
 Both commands should return version numbers.
 
 
+## 6. Changing node version
+
+nvm can be used to change node version based on the project. You just need to install and use a perticular version.
+
+```bash
+npm install <version number>   # for example nvm install 24.10.0
+npm use <version number>       # for example nvm use 24.10.0
+```
