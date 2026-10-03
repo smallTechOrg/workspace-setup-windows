@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #
 # Validates that a developer's local machine is set up correctly.
-# Checks that required tools are installed and working: Git, Node.js, Python, PostgreSQL.
+# Checks that required tools are installed and working: Git, Node.js, Python, PostgreSQL, Java.
 # Add new checks by writing a check_* function and calling it in the "Run checks" section.
 #
-# Usage: ./validate-setup.sh   (run from Git Bash)
+# Usage: ./validate.sh   (run from Git Bash)
 
 set -u
 
@@ -81,12 +81,29 @@ check_postgres() {
     fi
 }
 
+check_java() {
+    if ! command -v java >/dev/null 2>&1; then
+        add_result "Java" "false" "java is not installed or not on PATH."
+        return
+    fi
+
+    local java_version javac_version
+    java_version="$(java -version 2>&1 | head -n 1)"
+
+    if command -v javac >/dev/null 2>&1; then
+        javac_version="$(javac -version 2>&1)"
+        add_result "Java" "true" "$java_version, $javac_version"
+    else
+        add_result "Java" "false" "$java_version found, but javac (JDK) is missing or not on PATH."
+    fi
+}
+
 # Run checks. Add future checks (e.g. Claude Code) as new check_* functions and call them here.
 check_git
 check_node
 check_python
 check_postgres
-
+check_java
 echo "Validating local workspace setup..."
 echo
 echo "Results:"
