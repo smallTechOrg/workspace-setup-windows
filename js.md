@@ -17,19 +17,14 @@ https://nodejs.org/en/download/
 Download 26.x version for the LTS version. This is documented in Sep, 2026.
 
 
-
-## 3. Restart the terminal
-
-Close PowerShell and open a new PowerShell window.
-
-## 4. Verify Node.js
+## 2. Verify Node.js
 Restart git bash and verify the installation
 ```bash
 node --version
 ```
 
 
-## 5. Verify npm
+## 3. Verify npm
 
 ```bash
 npm --version
@@ -39,3 +34,11 @@ npm --version
 Both commands should return version numbers.
 
 
+## 4. Changing node version
+
+nvm can be used to change node version based on the project. You just need to install and use a perticular version.
+
+```bash
+npm install <version number>   # for example nvm install 24.10.0
+npm use <version number>       # for example nvm use 24.10.0
+```
