@@ -10,15 +10,13 @@ Oracle website:
 
 https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.exe
 
-Run the installer
+Run the installer.
 
-## 3. Restart the terminal
 
-After installation, close current PowerShell and open a new PowerShell window.
-
-## 4. Verify java
+## 2. Verify java
 
 Restart git bash and verify the installation
+
 ```bash
 java --version
 ```

@@ -53,3 +53,27 @@ python -m venv venv
 To activate the environment
 
 venv\Scripts\activate
+
+
+## 6. If python is already installed
+
+1. You do not need to uninstall your existing Python version. First, check which version is currently installed:
+
+```bash
+python --version
+```
+
+2. View available Python versions
+
+```bash
+pyenv install --list
+```
+
+3. For installing and switching Python versions follow these commands:
+
+```bash
+pyenv install <version number>    # Installs a specific Python version 
+pyenv versions            # List installed versions
+pyenv global <version number>    # Set the default Python version
+pyenv local <version number>      # Set the version for the current project
+```
